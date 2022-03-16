@@ -1,0 +1,154 @@
+        * {
+            padding: 0 px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        
+        .kapak {
+            background: url('photo.jpg');
+            height: 100vh;
+            width: 100%;
+            background-position: 100%;
+            background-size: cover;
+            align-items: center;
+        }
+        
+        .kapak .yazi {
+            padding-top: 50px;
+            padding-left: 20px;
+            font-size: 80px;
+        }
+        
+        .kapak .iletisim {
+            width: 50px;
+            height: 200px;
+            float: right;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .iletisim ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .iletisim ul li {
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            align-items: center;
+            line-height: 80px;
+            list-style-type: none;
+        }
+        
+        .iletisim ul li a {
+            font-size: 30px;
+            text-decoration: none;
+            color: grey;
+        }
+        
+        .iletisim ul li a:hover {
+            color: gainsboro;
+        }
+        
+        .icerik {
+            display: flex;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+            height: auto;
+            background-color: #F0A500;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .icerik .sagcizgi {
+            display: flex;
+            width: 50px;
+            height: auto;
+            margin: 20px auto;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+        
+        .sagcizgi .sag1 {
+            width: 10px;
+            height: 400px;
+            background-color: #EBD671;
+            margin: 3px;
+        }
+        
+        .sagcizgi .sag2 {
+            width: 10px;
+            height: 600px;
+            background-color: #EBD671;
+            margin: 3px;
+        }
+        
+        .icerik .solcizgi {
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            height: auto;
+            justify-content: flex-end;
+            margin: 20px auto;
+            align-items: flex-start;
+        }
+        
+        .solcizgi .sol2 {
+            width: 10px;
+            height: 400px;
+            background-color: #EBD671;
+            margin: 3px;
+        }
+        
+        .solcizgi .sol1 {
+            width: 10px;
+            height: 600px;
+            background-color: #EBD671;
+            margin: 3px;
+        }
+        
+        .ortalama {
+            margin: auto;
+            flex-direction: row;
+            display: flex;
+            width: 960px;
+            height: auto;
+            justify-content: space-between;
+        }
+        
+        .ortalama .sag {
+            width: 300px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ortalama img {
+            display: flex;
+            width: 300px;
+            padding-top: 30px;
+            margin: auto;
+            opacity: 0.9;
+        }
+        
+        .ortalama img:hover {
+            display: flex;
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        
+        .ortalama .sol {
+            width: 300px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ortalama .orta {
+            width: 300px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
